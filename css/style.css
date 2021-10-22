@@ -4,20 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+img{
+    width: 100%;
+}
 
 
 /* COMMON */
 body{
     font-family: 'Lato', sans-serif;
     background-color: black;
+    color: white;
 }
 
 
 
 /* HEADER */
 header{
-    color: white;
+    height: 70px;
 }
 .header-btn-container{
     display: flex;
@@ -30,4 +33,71 @@ header{
     font-size: 13px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+/* MAIN */
+main{
+    height: calc( 100vh - 140px );
+    overflow-y: auto;
+}
+.user-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.user{
+    margin: 5px;
+    width: 270px;
+    position: relative;
+}
+.muted-name{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* FOOTER */
+footer{
+    height: 70px;
+    background-color: #222222;
+}
+.footer-item-container{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-column{
+    display: flex;
+    align-items: center;
+}
+.single-icon{
+    text-align: center;
+    margin: 0 10px;
+}
+.single-icon a{
+    color: white;
+    text-decoration: none;
+}
+.green-color{
+    color: #4bc800;
+}
+
+/* End Meeting Btn */
+.end-meeting-btn{
+    height: 100%;
+    background-color: #4a4a4a;
+    display: flex;
+    align-items: center;
+}
+.end-meeting-btn a{
+    color: red;
+    text-decoration: none;
+    padding: 0 10px;
 }
