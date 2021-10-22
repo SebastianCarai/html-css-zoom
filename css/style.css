@@ -1,0 +1,33 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* COMMON */
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+}
+
+
+
+/* HEADER */
+header{
+    color: white;
+}
+.header-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-btn{
+    padding: 5px;
+    margin: 10px 5px;
+    background-color: #4a4a4a;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
